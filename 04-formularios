@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Formularios</title>
+    </head>
+    <body>
+        <h1>Formularios</h1>
+        <form>
+            <label for="">Nombre: </label>
+            <input type="text" name="name"/>
+            <label for="">Correo electrónico</label>
+            <input type="email" name="email"/>
+            <label for ="password">Contraseña</label>
+            <input type="password" name="password"
+        </form>
+    </body>
+</html>

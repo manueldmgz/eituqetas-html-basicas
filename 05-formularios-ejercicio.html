@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="05-formularios-ejercicio.css">
+</head>
+
+<body>
+    <h1>Favor de llenar el siguiente formulario</h1>
+    <form>
+        <!-- Nombre y apellido -->
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre">
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido">
+        <hr>
+        <!-- Ubicación -->
+        <h3>¿Dónde estás ubicado?</h3>
+        <input type="radio" id="cdmx" name="ubicacion" value="Cdmx">
+        <label for="cohorte">Ciudad de México</label><br>
+        <input type="radio" id="gdl" name="ubicacion" value="Guadalajara">
+        <label for="gdl">Guadalajara</label><br>
+        <input type="radio" id="hermosillo" name="ubicacion" value="Hermosillo">
+        <label for="hermosillo">Hermosillo</label>
+        <!-- Egresado o no -->
+        <hr>
+        <h3>¿Cuentas con?</h3>
+        <input type="checkbox" id="laptop" name="laptop" value="Laptop">
+        <label for="laptop"> Laptop</label>
+        <input type="checkbox" id="pc-escritorio" name="pc-escritorio" value="Pc-escritorio">
+        <label for="pc-escritorio"> Pc de escritorio</label>
+        <input type="checkbox" id="internet" name="internet" value="Internet">
+        <label for="internet"> Internet</label>
+        <hr>
+        <h3>Fecha actual</h3>
+        <label for="fecha-actual">Hoy es:</label>
+        <input type="date" id="fecha-actual" name="fecha-actual">
+    </form>
+
+
+
+</body>
+
+</html>

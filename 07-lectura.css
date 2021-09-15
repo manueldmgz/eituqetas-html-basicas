@@ -1,0 +1,42 @@
+body {
+    background-color: rgb(169, 194, 239);
+}
+
+h1 {
+    text-align: right;
+}
+
+span.comic {
+    color:red;
+    font-family:"Comic Sans MS", cursive;
+}
+
+span.comic-1 {
+    color:rgba(235, 126, 126, 0.741);
+    font-family:"Comic Sans MS", cursive;
+}
+
+span.comic-2 {
+    color:rgba(225, 124, 70, 0.741);
+}
+
+span.comic-3 {
+    color:rgba(70, 225, 132, 0.741);
+    font-style:italic;
+    background-color:rgb(255, 255, 255);
+}
+
+p {
+    text-indent: 40px;
+    font-family:'Times New Roman', Times, serif
+}
+
+h3 {
+    font-size:xx-large;
+}
+
+div {
+    text-align: center;
+    text-indent: 40px;
+    font-size:small;
+}
